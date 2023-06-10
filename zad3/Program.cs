@@ -8,9 +8,9 @@ System.Console.WriteLine("Введите число для проверки де
 int number = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 if (number%2 > 0)
 {
-System.Console.WriteLine("нет, число "+ number + " не четное"); 
+System.Console.WriteLine(number + " -> нет"); 
 }
 else
 {
-    System.Console.WriteLine("да, число "+ number + " четное, делится на два без остатка"); 
+    System.Console.WriteLine(number + " -> да"); 
 }

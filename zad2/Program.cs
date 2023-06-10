@@ -10,31 +10,9 @@ int d1 = Convert.ToInt16(Console.ReadLine());
 System.Console.WriteLine("Введите второе число: ");
 int d2 = Convert.ToInt16(Console.ReadLine());
 System.Console.WriteLine("Введите третье число: ");
-int max = Convert.ToInt16(Console.ReadLine());
+int d3 = Convert.ToInt16(Console.ReadLine());
 
-// int max = Convert.ToInt16(Console.ReadLine());
-// if (max > d1 )
-// {
-//     if (max > d2)
-//     {
-//          System.Console.WriteLine("наибольшее число из трех - " + max);
-//     }
-//     else
-//     {
-//         System.Console.WriteLine("наибольшее число из трех - " + d2);
-//     }
-// }
-// else
-// {
-//     if (d1 > d2)
-//     {
-//         System.Console.WriteLine("наибольшее число из трех - " + d1);
-//     }
-//     else
-//     {
-//         System.Console.WriteLine("наибольшее число из трех - " + d2);
-//     }
-// }
+int max = d3;
 
 if(max > d1)
 {
@@ -55,7 +33,7 @@ else
     }
 }
 
-System.Console.WriteLine("наибольшее число из трех : " + max);
+System.Console.WriteLine(d1 + ", " + d2 + ", " + d3 + " -> " + max);
 
 
 System.Console.WriteLine(""); // для отделения визуально в терминале 
